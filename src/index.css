@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar{
+  display: flex;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  justify-self: center;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.logo{
+  width: 25%;
+}
+
+.container{
+  text-align: center;
+  margin: 0px;
+  background-color: #81ACFF;;
+  border: black solid 2px;
+}
+.game{
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.box{
+  font-size: 7em;
+  border: #000000 0.1em solid;
+  height:  200px;
+  flex-basis: calc(33.33% - 1em);
+  margin: 0.4em;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+.box.X{
+  text-align: center;
+  background-color: white;
+}
+.box.O{
+  text-align: center;
+  background-color: white;
+}
+.X{
+  color: red;
+}
+.O{
+  color: blue;
+}
+.box.disabled{
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+
+.reiniciar{
+  background-color: #ffffff;
+  border: #000000 0.1em solid;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  color: #81ACFF;
+}
+
+.resultado{
+  background-color: #ffffff;
+  border: #000000 0.1em solid;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px;
+  color: #81ACFF;
+}
