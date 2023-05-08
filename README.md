@@ -8,7 +8,7 @@ Este es un juego de Tic-Tac-Toe (tres en raya) creado utilizando React. Es una a
 - Reinicio del juego para una nueva partida.
 
 ## Requisitos previos
--Node.js instalado en tu computadora.
+- Node.js instalado en tu computadora.
 
 ## Instalación
 1. Clona o descarga el repositorio del proyecto.
